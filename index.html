@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CSS -->
+    <!-- <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    /> -->
+
+    <!-- Vue.js -->
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <!-- own stylesheet & js -->
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <script defer src="./main.js"></script>
+    <title>Photo Gallery</title>
+  </head>
+  <body>
+    <header>
+      <h2>
+        <a id="logo" href="./index.html">Photon</a>
+      </h2>
+
+      <form class="search-form">
+        <input type="text" name="search" class="search-input" />
+        <button type="submit" class="submit-btn">Search</button>
+      </form>
+    </header>
+
+    <main>
+      <div class="gallery"></div>
+    </main>
+    <div class="nav-button">
+      <button class="more">More</button>
+    </div>
+  </body>
+</html>
